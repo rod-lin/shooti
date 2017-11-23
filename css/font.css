@@ -1,0 +1,64 @@
+@font-face {
+	font-family: Veneer;
+	src: url("../font/veneer.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Brandon;
+	src: url("../font/brandon.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Avenir;
+	src: url("../font/avenir-regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Avenir;
+	src: url("../font/avenir-heavy.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Foci;
+	src: url("../font/foci.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.foci-logo {
+	font-family: foci !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.foci-logo:before {
+	content: "\e900";
+}
+
+.brandon {
+	font-family: Brandon;
+}
+
+.avenir {
+	font-family: Avenir;
+}
+
+.veneer {
+	font-family: Veneer;
+}
