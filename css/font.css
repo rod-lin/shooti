@@ -33,6 +33,43 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: FontAwesome;
+	src: url("../font/fa.eot");
+	src: url("../font/fa.eot?#iefix") format("embedded-opentype"), url("../font/fa.woff2") format("woff2"), url("../font/fa.woff") format("woff"), url("../font/fa.ttf") format("truetype"), url("../font/fa.svg#icons") format("svg");
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: inherit;
+	text-transform: none;
+}
+
+.fa {
+	display: inline-block;
+	opacity: 1;
+	width: 1.18em;
+	height: 1em;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	text-align: center;
+	speak: none;
+	font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+}
+
+.fa:before {
+	background: none !important;
+}
+
+.fa.fa-heart:before {
+	content: "\f004";
+}
+
 .foci-logo {
 	font-family: foci !important;
 	speak: none;

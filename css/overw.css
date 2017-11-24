@@ -105,7 +105,7 @@ body {
 }
 
 .main-view.mini {
-	transform: translate3d(0, 50px, -300px);
+	transform: translate3d(0, 40px, -170px);
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
@@ -214,7 +214,7 @@ body {
 
 .main-view.half.video .full-video,
 .main-view.half.video .sub-video {
-	width: 49%;
+	width: 50%;
 }
 
 .copyright {
@@ -225,12 +225,16 @@ body {
 
 	color: rgb(100, 100, 100);
 
+	opacity: 1;
 	font-size: 0.8rem;
 
 	transition: opacity 0.3s, color 0.3s;
 }
 
-.main-view.mini+.copyright,
+.main-view.mini+.copyright {
+	opacity: 0;
+}
+
 .main-view.dark+.copyright {
 	color: rgb(253, 253, 253);
 }
